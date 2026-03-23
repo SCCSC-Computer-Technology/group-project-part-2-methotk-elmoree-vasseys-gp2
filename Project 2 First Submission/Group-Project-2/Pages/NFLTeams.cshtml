@@ -1,0 +1,32 @@
+﻿@page
+@model Group_Project_2.Pages.NFLTeamsModel
+@{
+    ViewData["Title"] = "NFL Teams";
+}
+
+<div class="teams-page">
+    <div class="teams-header">
+        <h1>NFL Teams</h1>
+        <p>Click to view desired team.</p>
+    </div>
+
+    <div class="teams-grid">
+        @foreach (var team in Model.Teams)
+        {
+            var imagePath = $"/images/NFL/{team.Name}.png";
+
+            <a asp-page="/NFLTeamDetails" asp-route-key="@team.Key" class="team-card-link">
+                <div class="team-card">
+                    <div class="team-card-header">
+                        <img src="@imagePath" alt="@team.Name logo" class="team-logo" />
+                        <div>
+                            <h3>@team.City @team.Name</h3>
+                            <p><strong>Conference:</strong> @team.Conference</p>
+                            <p><strong>Division:</strong> @team.Division</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        }
+    </div>
+</div>

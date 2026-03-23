@@ -1,0 +1,40 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="home-wrapper">
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">Choose Your League</h1>
+            <p class="hero-subtitle">
+                Track teams, stats, schedules, and more with NextPlay.
+            </p>
+        </div>
+    </section>
+
+    <section class="league-section">
+        <div class="league-grid">
+            <div class="league-card nfl-card">
+                <div class="card-icon">🏈</div>
+
+                <div class="league-card-content">
+                    <h2>NFL</h2>
+                    <p>View NFL teams, matchups, and standings.</p>
+                    <a asp-page="/NFLTeams" class="league-button">View Teams</a>
+                </div>
+            </div>
+
+            <div class="league-card nba-card">
+                <div class="card-icon">🏀</div>
+
+                <div class="league-card-content">
+                    <h2>NBA</h2>
+                    <p>View NBA teams, records, and player information.</p>
+                    <a asp-page="/NBATeams" class="league-button">View Teams</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

@@ -1,0 +1,57 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using Group_Project_2.Data
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - NextPlay</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm box-shadow">
+            <div class="container-fluid">
+                <a class="navbar-brand ps-3" asp-area="" asp-page="/Index">🏈 NextPlay</a>
+
+                @if (SignInManager.IsSignedIn(User))
+                {
+                    var currentUser = await UserManager.GetUserAsync(User);
+
+                    <div class="ms-auto pe-3 text-white">
+                        <a class="nav-link d-inline text-white"
+                           asp-area="Identity"
+                           asp-page="/Account/Manage/Index"
+                           title="Manage">
+                            Hello @(currentUser?.FirstName ?? currentUser?.Email)!
+                        </a>
+                        &nbsp;&nbsp;
+                        <form class="d-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="/Identity/Account/Login" method="post">
+                            <button type="submit" class="btn btn-link nav-link d-inline text-white p-0 border-0">Logout</button>
+                        </form>
+                    </div>
+                }
+                else
+                {
+                    <div class="ms-auto pe-3 text-white">
+                        <a class="nav-link d-inline text-white" asp-area="Identity" asp-page="/Account/Register">Register</a>
+                        &nbsp;&nbsp;
+                        <a class="nav-link d-inline text-white" asp-area="Identity" asp-page="/Account/Login">Login</a>
+                    </div>
+                }
+            </div>
+        </nav>
+    </header>
+
+    <main role="main">
+        @RenderBody()
+    </main>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

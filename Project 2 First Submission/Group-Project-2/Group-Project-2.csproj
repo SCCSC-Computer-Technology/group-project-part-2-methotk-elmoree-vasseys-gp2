@@ -1,0 +1,97 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Group_Project_2</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="10.0.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="10.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="10.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="10.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="10.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Group_Project_2.ApiLibrary\Group_Project_2.ApiLibrary.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Images\NBA\76ers.png" />
+    <None Include="wwwroot\Images\NBA\Bucks.png" />
+    <None Include="wwwroot\Images\NBA\Bulls.png" />
+    <None Include="wwwroot\Images\NBA\Cavaliers.png" />
+    <None Include="wwwroot\Images\NBA\Celtics.png" />
+    <None Include="wwwroot\Images\NBA\Clippers.png" />
+    <None Include="wwwroot\Images\NBA\Grizzlies.png" />
+    <None Include="wwwroot\Images\NBA\Hawks.png" />
+    <None Include="wwwroot\Images\NBA\Heat.png" />
+    <None Include="wwwroot\Images\NBA\Hornets.png" />
+    <None Include="wwwroot\Images\NBA\Jazz.png" />
+    <None Include="wwwroot\Images\NBA\Kings.png" />
+    <None Include="wwwroot\Images\NBA\Knicks.png" />
+    <None Include="wwwroot\Images\NBA\Lakers.png" />
+    <None Include="wwwroot\Images\NBA\Magic.png" />
+    <None Include="wwwroot\Images\NBA\Mavericks.png" />
+    <None Include="wwwroot\Images\NBA\NBALogo.png" />
+    <None Include="wwwroot\Images\NBA\Nets.png" />
+    <None Include="wwwroot\Images\NBA\Nuggets.png" />
+    <None Include="wwwroot\Images\NBA\Pacers.png" />
+    <None Include="wwwroot\Images\NBA\Pelicans.png" />
+    <None Include="wwwroot\Images\NBA\Pistons.png" />
+    <None Include="wwwroot\Images\NBA\Raptors.png" />
+    <None Include="wwwroot\Images\NBA\Rockets.png" />
+    <None Include="wwwroot\Images\NBA\Spurs.png" />
+    <None Include="wwwroot\Images\NBA\Suns.png" />
+    <None Include="wwwroot\Images\NBA\Thunder.png" />
+    <None Include="wwwroot\Images\NBA\Timberwolves.png" />
+    <None Include="wwwroot\Images\NBA\TrailBlazers.png" />
+    <None Include="wwwroot\Images\NBA\Warriors.png" />
+    <None Include="wwwroot\Images\NBA\Wizards.png" />
+    <None Include="wwwroot\Images\NFL\49ers.png" />
+    <None Include="wwwroot\Images\NFL\Bears.png" />
+    <None Include="wwwroot\Images\NFL\Bengals.png" />
+    <None Include="wwwroot\Images\NFL\Bills.png" />
+    <None Include="wwwroot\Images\NFL\Broncos.png" />
+    <None Include="wwwroot\Images\NFL\Browns.png" />
+    <None Include="wwwroot\Images\NFL\Buccaneers.png" />
+    <None Include="wwwroot\Images\NFL\Cardinals.png" />
+    <None Include="wwwroot\Images\NFL\Chargers.png" />
+    <None Include="wwwroot\Images\NFL\Chiefs.png" />
+    <None Include="wwwroot\Images\NFL\Colts.png" />
+    <None Include="wwwroot\Images\NFL\Commanders.png" />
+    <None Include="wwwroot\Images\NFL\Cowboys.png" />
+    <None Include="wwwroot\Images\NFL\Dolphins.png" />
+    <None Include="wwwroot\Images\NFL\Eagles.png" />
+    <None Include="wwwroot\Images\NFL\Falcons.png" />
+    <None Include="wwwroot\Images\NFL\Giants.png" />
+    <None Include="wwwroot\Images\NFL\Jaguars.png" />
+    <None Include="wwwroot\Images\NFL\Jets.png" />
+    <None Include="wwwroot\Images\NFL\Lions.png" />
+    <None Include="wwwroot\Images\NFL\NFLLogo.png" />
+    <None Include="wwwroot\Images\NFL\Packers.png" />
+    <None Include="wwwroot\Images\NFL\Panthers.png" />
+    <None Include="wwwroot\Images\NFL\Patriots.png" />
+    <None Include="wwwroot\Images\NFL\Raiders.png" />
+    <None Include="wwwroot\Images\NFL\Rams.png" />
+    <None Include="wwwroot\Images\NFL\Ravens.png" />
+    <None Include="wwwroot\Images\NFL\Saints.png" />
+    <None Include="wwwroot\Images\NFL\Seahawks.png" />
+    <None Include="wwwroot\Images\NFL\Steelers.png" />
+    <None Include="wwwroot\Images\NFL\Texans.png" />
+    <None Include="wwwroot\Images\NFL\Titans.png" />
+    <None Include="wwwroot\Images\NFL\Vikings.png" />
+  </ItemGroup>
+
+</Project>
