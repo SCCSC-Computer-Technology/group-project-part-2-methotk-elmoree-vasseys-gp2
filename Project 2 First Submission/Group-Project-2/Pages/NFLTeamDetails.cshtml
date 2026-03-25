@@ -1,0 +1,75 @@
+﻿@page
+@model Group_Project_2.Pages.NFLTeamDetailsModel
+
+@{
+    ViewData["Title"] = "Team Details";
+}
+
+@if (Model.Team == null)
+{
+    <h2>Team not found.</h2>
+}
+else
+{
+    <div class="team-details">
+
+        
+        <h1>@Model.Team.City @Model.Team.Name</h1>
+
+       
+        <h3>Team Info</h3>
+        <p><strong>Conference:</strong> @Model.Team.Conference</p>
+        <p><strong>Division:</strong> @Model.Team.Division</p>
+
+        <hr />
+
+       
+        <h3>Team Stats</h3>
+
+        @if (Model.Standing != null)
+        {
+            <p><strong>Wins:</strong> @Model.Standing.Wins</p>
+            <p><strong>Losses:</strong> @Model.Standing.Losses</p>
+            <p><strong>Ties:</strong> @Model.Standing.Ties</p>
+            <p><strong>Points For:</strong> @Model.Standing.PointsFor</p>
+            <p><strong>Points Against:</strong> @Model.Standing.PointsAgainst</p>
+        }
+        else
+        {
+            <p>No stats available.</p>
+        }
+
+        <hr />
+
+     
+        <h2>Players</h2>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Position</th>
+                    <th>Number</th>
+                    <th>Height</th>
+                    <th>Weight</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var player in Model.Players)
+                {
+                    <tr>
+                        <td>@player.FirstName @player.LastName</td>
+                        <td>@player.Position</td>
+
+                     
+                        <td>@(player.Number.HasValue? player.Number: "N/A")</td>
+
+                        <td>@player.Height</td>
+                        <td>@player.Weight</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>
+}

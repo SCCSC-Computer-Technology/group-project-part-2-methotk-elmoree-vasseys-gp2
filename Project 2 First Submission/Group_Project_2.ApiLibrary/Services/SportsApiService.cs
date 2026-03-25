@@ -1,6 +1,8 @@
 ﻿using Group_Project_2.ApiLibrary.Models;
 using Newtonsoft.Json;
 using System.Net.Http;
+using System.Numerics;
+using System.Linq;
 
 namespace Group_Project_2.ApiLibrary.Services
 {
@@ -70,6 +72,48 @@ namespace Group_Project_2.ApiLibrary.Services
             string url = $"https://api.sportsdata.io/v3/nba/scores/json/Standings/{FixedYear}";
             string json = await GetJsonAsync(url);
             return JsonConvert.DeserializeObject<List<NBAStanding>>(json) ?? new List<NBAStanding>();
+        }
+
+        public async Task<NFLTeam?> GetNFLTeamByKeyAsync(string key)
+        {
+            var teams = await GetNFLTeamsAsync();
+            return teams.FirstOrDefault(t => t.Key == key);
+        }
+
+        public async Task<List<NFLPlayer>> GetNFLPlayersByTeamAsync(string key)
+        {
+            string url = "https://api.sportsdata.io/v3/nfl/scores/json/Players";
+            string json = await GetJsonAsync(url);
+
+            var players = JsonConvert.DeserializeObject<List<NFLPlayer>>(json)
+                          ?? new List<NFLPlayer>();
+
+            return players
+                .Where(p => p.Team != null && p.Team.Equals(key, StringComparison.OrdinalIgnoreCase))
+                .ToList();
+        }
+
+        public async Task<NBATeam?> GetNBATeamByKeyAsync(string key)
+        {
+            var teams = await GetNBATeamsAsync();
+
+            return teams.FirstOrDefault(t =>
+                t.Key != null &&
+                t.Key.Equals(key, StringComparison.OrdinalIgnoreCase));
+        }
+
+        public async Task<List<NBAPlayer>> GetNBAPlayersByTeamAsync(string key)
+        {
+            string url = "https://api.sportsdata.io/v3/nba/scores/json/Players";
+            string json = await GetJsonAsync(url);
+
+            var players = JsonConvert.DeserializeObject<List<NBAPlayer>>(json)
+                          ?? new List<NBAPlayer>();
+
+            return players
+                .Where(p => p.Team != null &&
+                            p.Team.Equals(key, StringComparison.OrdinalIgnoreCase))
+                .ToList();
         }
     }
 }
