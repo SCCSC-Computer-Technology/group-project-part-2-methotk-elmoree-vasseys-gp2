@@ -1,0 +1,319 @@
+﻿@page
+@model Group_Project_2.Pages.NBAPlayerDetailsModel
+
+@{
+    ViewData["Title"] = "NBA Player Details";
+}
+
+<style>
+    body {
+        background: #0b1220;
+        color: #e5e7eb;
+    }
+
+    .player-page {
+        padding: 30px 0 50px 0;
+    }
+
+    .player-hero {
+        background: linear-gradient(135deg, #0f172a, #13233d, #1e293b);
+        color: white;
+        border-radius: 22px;
+        padding: 32px;
+        margin-bottom: 28px;
+        box-shadow: 0 14px 30px rgba(0, 0, 0, 0.25);
+        border: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .player-hero-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+
+    .player-left {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .team-logo {
+        width: 95px;
+        height: 95px;
+        object-fit: contain;
+        background: rgba(255,255,255,.08);
+        border-radius: 18px;
+        padding: 10px;
+        border: 1px solid rgba(255,255,255,.10);
+    }
+
+    .player-title {
+        font-size: 2.4rem;
+        font-weight: 800;
+        margin: 0;
+    }
+
+    .player-subtitle {
+        margin-top: 8px;
+        color: #cbd5e1;
+        font-size: 1rem;
+    }
+
+    .player-tags {
+        display: flex;
+        gap: 10px;
+        margin-top: 12px;
+        flex-wrap: wrap;
+    }
+
+    .player-tag {
+        background: rgba(255,255,255,.10);
+        border: 1px solid rgba(255,255,255,.12);
+        padding: 8px 14px;
+        border-radius: 999px;
+        font-size: .9rem;
+    }
+
+    .number-box {
+        background: rgba(255,255,255,.08);
+        border: 1px solid rgba(255,255,255,.12);
+        border-radius: 18px;
+        padding: 20px;
+        text-align: center;
+        min-width: 200px;
+    }
+
+    .number-label {
+        font-size: .9rem;
+        color: #cbd5e1;
+        margin-bottom: 8px;
+        text-transform: uppercase;
+    }
+
+    .number-value {
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
+    .content-card {
+        background: #111827;
+        border-radius: 20px;
+        padding: 24px;
+        margin-bottom: 24px;
+        box-shadow: 0 10px 24px rgba(0,0,0,0.25);
+        border: 1px solid rgba(255,255,255,0.06);
+    }
+
+    .section-title {
+        color: #ffffff;
+        font-size: 1.5rem;
+        font-weight: 800;
+        margin-bottom: 18px;
+    }
+
+    .info-grid {
+        display: grid;
+        gap: 16px;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+
+    .info-box {
+        background: #1f2937;
+        border: 1px solid rgba(255,255,255,.06);
+        border-radius: 16px;
+        padding: 18px;
+    }
+
+    .label-text {
+        color: #94a3b8;
+        font-size: .8rem;
+        margin-bottom: 6px;
+        text-transform: uppercase;
+    }
+
+    .value-text {
+        color: #ffffff;
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+
+    .stats-table-wrapper {
+        overflow-x: auto;
+    }
+
+    .stats-table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+        .stats-table thead th {
+            background: #020617;
+            color: #cbd5e1;
+            padding: 14px;
+            text-align: left;
+        }
+
+        .stats-table tbody td {
+            padding: 14px;
+            border-bottom: 1px solid rgba(255,255,255,.06);
+        }
+
+        .stats-table tbody tr:nth-child(even) {
+            background: rgba(255,255,255,.03);
+        }
+
+        .stats-table tbody tr:hover {
+            background: rgba(59,130,246,.15);
+        }
+
+    .empty-message {
+        padding: 16px;
+        border-radius: 14px;
+        background: #1f2937;
+    }
+
+    .back-btn {
+        display: inline-block;
+        margin-top: 8px;
+        background: #2563eb;
+        color: white;
+        text-decoration: none;
+        padding: 10px 16px;
+        border-radius: 10px;
+        font-weight: 600;
+    }
+
+        .back-btn:hover {
+            background: #1d4ed8;
+            color: white;
+        }
+
+    @@media (max-width: 768px) {
+        .player-title {
+            font-size: 1.9rem;
+        }
+
+        .number-box {
+            width: 100%;
+        }
+    }
+</style>
+
+<div class="container player-page">
+    <div class="player-hero">
+        <div class="player-hero-content">
+            <div class="player-left">
+                <img class="team-logo"
+                     src="~/Images/NBA/@(Model.TeamName).png"
+                     alt="@Model.TeamCity @Model.TeamName Logo"
+                     onerror="this.style.display='none';" />
+
+                <div>
+                    <h1 class="player-title">@Model.FullName</h1>
+                    <div class="player-subtitle">@Model.TeamCity @Model.TeamName • NBA Player Profile</div>
+
+                    <div class="player-tags">
+                        <span class="player-tag">Position: @(string.IsNullOrWhiteSpace(Model.Position) ? "N/A" : Model.Position)</span>
+                        <span class="player-tag">Height: @(string.IsNullOrWhiteSpace(Model.Height) ? "N/A" : Model.Height)</span>
+                        <span class="player-tag">Weight: @(string.IsNullOrWhiteSpace(Model.Weight) ? "N/A" : Model.Weight)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="number-box">
+                <div class="number-label">Jersey Number</div>
+                <div class="number-value">@(string.IsNullOrWhiteSpace(Model.Number) ? "N/A" : Model.Number)</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-card">
+        <h2 class="section-title">Player Details</h2>
+
+        <div class="info-grid">
+            <div class="info-box">
+                <div class="label-text">First Name</div>
+                <div class="value-text">@Model.FirstName</div>
+            </div>
+
+            <div class="info-box">
+                <div class="label-text">Last Name</div>
+                <div class="value-text">@Model.LastName</div>
+            </div>
+
+            <div class="info-box">
+                <div class="label-text">Team</div>
+                <div class="value-text">@Model.TeamCity @Model.TeamName</div>
+            </div>
+
+            <div class="info-box">
+                <div class="label-text">Position</div>
+                <div class="value-text">@(string.IsNullOrWhiteSpace(Model.Position) ? "N/A" : Model.Position)</div>
+            </div>
+
+            <div class="info-box">
+                <div class="label-text">Height</div>
+                <div class="value-text">@(string.IsNullOrWhiteSpace(Model.Height) ? "N/A" : Model.Height)</div>
+            </div>
+
+            <div class="info-box">
+                <div class="label-text">Weight</div>
+                <div class="value-text">@(string.IsNullOrWhiteSpace(Model.Weight) ? "N/A" : Model.Weight)</div>
+            </div>
+
+            <div class="info-box">
+                <div class="label-text">Jersey Number</div>
+                <div class="value-text">@(string.IsNullOrWhiteSpace(Model.Number) ? "N/A" : Model.Number)</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-card">
+        <h2 class="section-title">Season Stats</h2>
+
+        @if (Model.Stats != null && Model.Stats.Any())
+        {
+            <div class="stats-table-wrapper">
+                <table class="stats-table">
+                    <thead>
+                        <tr>
+                            <th>Team</th>
+                            <th>Games</th>
+                            <th>Points</th>
+                            <th>Rebounds</th>
+                            <th>Assists</th>
+                            <th>Steals</th>
+                            <th>Blocks</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var stat in Model.Stats)
+                        {
+                            <tr>
+                                <td>@stat.Team</td>
+                                <td>@stat.Games</td>
+                                <td>@stat.Points</td>
+                                <td>@stat.Rebounds</td>
+                                <td>@stat.Assists</td>
+                                <td>@stat.Steals</td>
+                                <td>@stat.BlockedShots</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        }
+        else
+        {
+            <div class="empty-message">No stats available.</div>
+        }
+    </div>
+
+    <a class="back-btn"
+       asp-page="/NBATeamDetails"
+       asp-route-key="@Model.TeamKey">
+        ← Back to Team
+    </a>
+</div>

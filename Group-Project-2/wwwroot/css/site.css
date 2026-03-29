@@ -1,0 +1,558 @@
+html {
+    font-size: 14px;
+    min-height: 100%;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+}
+
+body {
+    margin-bottom: 0 !important;
+}
+
+/* Focus styles */
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+/* Floating label placeholder behavior */
+.form-floating > .form-control-plaintext::placeholder,
+.form-floating > .form-control::placeholder {
+    color: var(--bs-secondary-color);
+    text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder,
+.form-floating > .form-control:focus::placeholder {
+    text-align: start;
+}
+
+/* Remove default Bootstrap spacing/wrappers */
+.container,
+.container-fluid,
+main,
+header,
+nav {
+    margin: 0 !important;
+    max-width: 100% !important;
+}
+
+.container,
+.container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+main {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+.navbar {
+    background: linear-gradient(to right, #1f2937, #111827) !important;
+    min-height: 56px;
+    padding: 0.75rem 0;
+    border: none !important;
+}
+
+.navbar,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-link,
+.nav-link:hover,
+.navbar-text,
+a.nav-link,
+a.navbar-brand {
+    color: white !important;
+}
+
+    .navbar .btn,
+    .navbar .btn:hover,
+    .navbar .btn:focus,
+    .navbar .btn-link,
+    .navbar .text-primary,
+    .navbar .text-dark,
+    .navbar .text-body,
+    .navbar .text-body-emphasis,
+    .navbar .dropdown-toggle {
+        color: white !important;
+    }
+
+header {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+main {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* 
+   HOME PAGE / MAIN PAGE
+ */
+
+.home-wrapper {
+    min-height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #0f172a, #111827);
+    color: white;
+}
+
+.hero-section {
+    padding: 80px 20px 40px 20px;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    color: #cbd5e1;
+    margin-bottom: 20px;
+}
+
+.league-section {
+    padding: 20px 20px 80px 20px;
+}
+
+.league-grid {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.league-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    min-height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+    .league-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 18px 36px rgba(0, 0, 0, 0.45);
+    }
+
+.league-card-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 30px;
+}
+
+    .league-card-content h2 {
+        font-size: 2.3rem;
+        font-weight: 800;
+        margin-bottom: 12px;
+    }
+
+    .league-card-content p {
+        font-size: 1rem;
+        color: #e5e7eb;
+        margin-bottom: 22px;
+    }
+
+.nfl-card {
+    background: linear-gradient(135deg, #013369, #1d4ed8);
+}
+
+.nba-card {
+    background: linear-gradient(135deg, #c8102e, #1d428a);
+}
+
+.league-button {
+    display: inline-block;
+    padding: 12px 22px;
+    border-radius: 10px;
+    background-color: white;
+    color: #111827;
+    font-weight: 700;
+    text-decoration: none;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+    .league-button:hover {
+        background-color: #e5e7eb;
+        color: #000;
+    }
+
+/* Background sports icons */
+.card-icon {
+    position: absolute;
+    font-size: 140px;
+    opacity: 0.08;
+    right: 20px;
+    bottom: 10px;
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* 
+   AUTH PAGES
+ */
+
+.auth-page {
+    min-height: calc(100vh - 56px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    background: linear-gradient(to bottom, #0f172a, #111827);
+}
+
+.auth-card {
+    width: 100%;
+    max-width: 520px;
+    background: rgba(17, 24, 39, 0.96);
+    border-radius: 20px;
+    padding: 36px;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+    color: white;
+}
+
+.auth-header {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+    .auth-header h1 {
+        margin-bottom: 10px;
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
+    .auth-header p {
+        margin: 0;
+        color: #cbd5e1;
+    }
+
+.auth-card .form-control {
+    background-color: #1f2937;
+    border: 1px solid #374151;
+    color: white;
+}
+
+    .auth-card .form-control:focus {
+        background-color: #1f2937;
+        color: white;
+        border-color: #60a5fa;
+    }
+
+.auth-card .form-floating > label {
+    color: #cbd5e1;
+}
+
+.auth-button {
+    width: 100%;
+    border: none;
+    border-radius: 12px;
+    padding: 14px;
+    font-weight: 700;
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    color: white;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+    .auth-button:hover {
+        transform: translateY(-2px);
+        opacity: 0.95;
+    }
+
+.auth-footer-link {
+    margin-top: 18px;
+    text-align: center;
+    color: #cbd5e1;
+}
+
+    .auth-footer-link a {
+        color: #60a5fa;
+        text-decoration: none;
+        margin-left: 6px;
+    }
+
+        .auth-footer-link a:hover {
+            text-decoration: underline;
+        }
+
+@media (max-width: 768px) {
+    .league-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-title {
+        font-size: 2.2rem;
+    }
+
+    .league-card {
+        min-height: 260px;
+    }
+
+    .card-icon {
+        font-size: 100px;
+    }
+}
+
+
+/* 
+   TEAM PAGES
+ */
+
+.teams-page {
+    min-height: calc(100vh - 56px);
+    padding: 40px 30px 60px 30px;
+    background: linear-gradient(to bottom, #0f172a, #111827);
+    color: white;
+}
+
+.teams-header {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+    .teams-header h1 {
+        font-size: 2.5rem;
+        font-weight: 800;
+        margin-bottom: 10px;
+    }
+
+    .teams-header p {
+        color: #cbd5e1;
+        margin: 0;
+    }
+
+.teams-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 24px;
+    align-items: stretch;
+}
+
+.team-card {
+    background: linear-gradient(135deg, #1e3a8a, #1d4ed8);
+    border-radius: 18px;
+    padding: 24px;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; 
+}
+
+    .team-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 18px 36px rgba(0, 0, 0, 0.4);
+    }
+
+    .team-card h3 {
+        font-size: 1.35rem;
+        font-weight: 800;
+        margin-bottom: 14px;
+    }
+
+    .team-card p {
+        margin: 6px 0;
+        color: #e5e7eb;
+    }
+
+
+.team-card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.team-card-header {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.team-logo {
+    width: 72px;
+    height: 72px;
+    object-fit: contain;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 8px;
+    flex-shrink: 0;
+}
+
+
+/* 
+   MANAGE ACCOUNT PAGE
+ */
+
+.manage-card {
+    width: 100%;
+    max-width: 1150px;
+    background: rgba(17, 24, 39, 0.96);
+    border-radius: 22px;
+    padding: 36px;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+    color: white;
+}
+
+.manage-layout {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    gap: 28px;
+    margin-top: 20px;
+}
+
+.manage-sidebar {
+    background: rgba(31, 41, 55, 0.9);
+    border-radius: 18px;
+    padding: 18px;
+    height: fit-content;
+}
+
+.manage-content {
+    background: rgba(31, 41, 55, 0.55);
+    border-radius: 18px;
+    padding: 24px;
+}
+
+.manage-nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+    .manage-nav-list li {
+        margin: 0 0 10px 0;
+    }
+
+.manage-nav-link {
+    display: block;
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #e5e7eb;
+    background: transparent;
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+    .manage-nav-link:hover {
+        background: rgba(37, 99, 235, 0.2);
+        color: white;
+        transform: translateX(2px);
+    }
+
+    .manage-nav-link.active {
+        background: linear-gradient(135deg, #2563eb, #1d4ed8);
+        color: white;
+        box-shadow: 0 10px 24px rgba(0, 0, 0, 0.25);
+    }
+
+.manage-content h1,
+.manage-content h2,
+.manage-content h3,
+.manage-content h4,
+.manage-content label,
+.manage-card h1,
+.manage-card h2,
+.manage-card h3,
+.manage-card h4,
+.manage-card label,
+.manage-card p {
+    color: white;
+}
+
+.manage-content .form-control {
+    background-color: #1f2937;
+    border: 1px solid #374151;
+    color: white;
+}
+
+    .manage-content .form-control:focus {
+        background-color: #1f2937;
+        color: white;
+        border-color: #60a5fa;
+    }
+
+    .manage-content .form-control:disabled,
+    .manage-content .form-control[readonly] {
+        background-color: #374151;
+        color: #d1d5db;
+        opacity: 1;
+    }
+
+.manage-content .form-floating > label {
+    color: #cbd5e1;
+}
+
+.manage-content .text-muted {
+    color: #cbd5e1 !important;
+}
+
+.manage-content .text-danger,
+.manage-card .text-danger {
+    color: #fca5a5 !important;
+}
+
+.manage-card .btn,
+.manage-card button {
+    border-radius: 12px;
+}
+
+.manage-card .alert {
+    border-radius: 14px;
+    border: none;
+}
+
+.manage-card hr {
+    border-color: rgba(255, 255, 255, 0.12);
+}
+
+@media (max-width: 900px) {
+    .manage-layout {
+        grid-template-columns: 1fr;
+    }
+}
+

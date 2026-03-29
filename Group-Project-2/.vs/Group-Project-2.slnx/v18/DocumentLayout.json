@@ -1,0 +1,1051 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\pages\\nflteamdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:pages\\nflteamdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\pages\\nflteams.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:pages\\nflteams.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\pages\\nflteamdetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:pages\\nflteamdetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\pages\\nflplayerdetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:pages\\nflplayerdetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\pages\\nflplayerdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:pages\\nflplayerdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\pages\\nbateams.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:pages\\nbateams.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\pages\\nbateamdetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:pages\\nbateamdetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\pages\\nbateamdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:pages\\nbateamdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\pages\\nbaplayerdetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:pages\\nbaplayerdetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\pages\\nbaplayerdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:pages\\nbaplayerdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862D26EC-CD26-4EF9-BAAE-0287268CFA96}|..\\Group_Project_2.ApiLibrary\\Group_Project_2.ApiLibrary.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group_project_2.apilibrary\\models\\nbateam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862D26EC-CD26-4EF9-BAAE-0287268CFA96}|..\\Group_Project_2.ApiLibrary\\Group_Project_2.ApiLibrary.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group_project_2.apilibrary\\services\\sportsapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862D26EC-CD26-4EF9-BAAE-0287268CFA96}|..\\Group_Project_2.ApiLibrary\\Group_Project_2.ApiLibrary.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group_project_2.apilibrary\\models\\nbaplayerseasonstat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862D26EC-CD26-4EF9-BAAE-0287268CFA96}|..\\Group_Project_2.ApiLibrary\\Group_Project_2.ApiLibrary.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group_project_2.apilibrary\\models\\nflplayerseasonstat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862D26EC-CD26-4EF9-BAAE-0287268CFA96}|..\\Group_Project_2.ApiLibrary\\Group_Project_2.ApiLibrary.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group_project_2.apilibrary\\models\\nbaplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862D26EC-CD26-4EF9-BAAE-0287268CFA96}|..\\Group_Project_2.ApiLibrary\\Group_Project_2.ApiLibrary.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group_project_2.apilibrary\\models\\nflplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\pages\\nbateams.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:pages\\nbateams.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\pages\\nflteams.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:pages\\nflteams.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\areas\\identity\\pages\\account\\manage\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\areas\\identity\\pages\\account\\manage\\_managenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\_managenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\areas\\identity\\pages\\account\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:areas\\identity\\pages\\account\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\areas\\identity\\pages\\account\\manage\\managenavpages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\managenavpages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\areas\\identity\\pages\\account\\manage\\changepassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\changepassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\areas\\identity\\pages\\account\\manage\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\areas\\identity\\pages\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:areas\\identity\\pages\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\migrations\\20260323132925_addlastlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:migrations\\20260323132925_addlastlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\migrations\\20260323133142_addlastlogindate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:migrations\\20260323133142_addlastlogindate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\migrations\\20260323125043_initialidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:migrations\\20260323125043_initialidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\migrations\\20260323144123_fixapplicationuseridentitysetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:migrations\\20260323144123_fixapplicationuseridentitysetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\migrations\\20260323142656_addfirstandlastnametoapplicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:migrations\\20260323142656_addfirstandlastnametoapplicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\migrations\\20260323141953_addfirstandlastname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:migrations\\20260323141953_addfirstandlastname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Vasse\\source\\repos\\Group_Project_2.ApiLibrary\\Services\\SportsApiService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Vasse\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NFLStanding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Vasse\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NBAPlayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Vasse\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NFLPlayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Vasse\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NBAPlayerSeasonStat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Vasse\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NFLPlayerSeasonStat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Vasse\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NBAStanding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Vasse\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NFLScheduleGame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Vasse\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NBAGame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Vasse\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NBATeam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Vasse\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NFLTeam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Vasse\\source\\repos\\Group_Project_2.ApiLibrary\\Group_Project_2.ApiLibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rltka\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Project 2 First Submission\\Group_Project_2.ApiLibrary\\Services\\SportsApiService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NFLPlayerDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\NFLPlayerDetails.cshtml",
+              "RelativeDocumentMoniker": "Pages\\NFLPlayerDetails.cshtml",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\NFLPlayerDetails.cshtml",
+              "RelativeToolTip": "Pages\\NFLPlayerDetails.cshtml",
+              "ViewState": "AgIAAAoBAAAAAAAAAAAwwEcBAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-29T20:21:58.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NFLPlayerDetails.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\NFLPlayerDetails.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\NFLPlayerDetails.cshtml.cs",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\NFLPlayerDetails.cshtml.cs",
+              "RelativeToolTip": "Pages\\NFLPlayerDetails.cshtml.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAYwDMAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T20:22:13.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NFLTeamDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\NFLTeamDetails.cshtml",
+              "RelativeDocumentMoniker": "Pages\\NFLTeamDetails.cshtml",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\NFLTeamDetails.cshtml",
+              "RelativeToolTip": "Pages\\NFLTeamDetails.cshtml",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAwwCkBAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-23T21:39:48.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NFLTeamDetails.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\NFLTeamDetails.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\NFLTeamDetails.cshtml.cs",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\NFLTeamDetails.cshtml.cs",
+              "RelativeToolTip": "Pages\\NFLTeamDetails.cshtml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAwwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T21:39:55.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NFLTeams.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\NFLTeams.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\NFLTeams.cshtml.cs",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\NFLTeams.cshtml.cs",
+              "RelativeToolTip": "Pages\\NFLTeams.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T16:28:31.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T12:45:17.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NBATeams.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\NBATeams.cshtml",
+              "RelativeDocumentMoniker": "Pages\\NBATeams.cshtml",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\NBATeams.cshtml",
+              "RelativeToolTip": "Pages\\NBATeams.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-23T16:47:31.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NBATeamDetails.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\NBATeamDetails.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\NBATeamDetails.cshtml.cs",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\NBATeamDetails.cshtml.cs",
+              "RelativeToolTip": "Pages\\NBATeamDetails.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T22:19:43.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NBATeamDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\NBATeamDetails.cshtml",
+              "RelativeDocumentMoniker": "Pages\\NBATeamDetails.cshtml",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\NBATeamDetails.cshtml",
+              "RelativeToolTip": "Pages\\NBATeamDetails.cshtml",
+              "ViewState": "AgIAAHwBAAAAAAAAAAAwwKEBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-23T22:21:12.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NBAPlayerDetails.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\NBAPlayerDetails.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\NBAPlayerDetails.cshtml.cs",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\NBAPlayerDetails.cshtml.cs",
+              "RelativeToolTip": "Pages\\NBAPlayerDetails.cshtml.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAwC8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T20:23:53.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NBAPlayerDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\NBAPlayerDetails.cshtml",
+              "RelativeDocumentMoniker": "Pages\\NBAPlayerDetails.cshtml",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\NBAPlayerDetails.cshtml",
+              "RelativeToolTip": "Pages\\NBAPlayerDetails.cshtml",
+              "ViewState": "AgIAABkBAAAAAAAAAAAwwD4BAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-29T20:23:49.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NBATeam.cs",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group_Project_2.ApiLibrary\\Models\\NBATeam.cs",
+              "RelativeDocumentMoniker": "..\\Group_Project_2.ApiLibrary\\Models\\NBATeam.cs",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group_Project_2.ApiLibrary\\Models\\NBATeam.cs",
+              "RelativeToolTip": "..\\Group_Project_2.ApiLibrary\\Models\\NBATeam.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T20:24:59.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SportsApiService.cs",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group_Project_2.ApiLibrary\\Services\\SportsApiService.cs",
+              "RelativeDocumentMoniker": "..\\Group_Project_2.ApiLibrary\\Services\\SportsApiService.cs",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group_Project_2.ApiLibrary\\Services\\SportsApiService.cs",
+              "RelativeToolTip": "..\\Group_Project_2.ApiLibrary\\Services\\SportsApiService.cs",
+              "ViewState": "AgIAALUAAAAAAAAAAAAkwNwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T21:07:16.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "NBAPlayerSeasonStat.cs",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group_Project_2.ApiLibrary\\Models\\NBAPlayerSeasonStat.cs",
+              "RelativeDocumentMoniker": "..\\Group_Project_2.ApiLibrary\\Models\\NBAPlayerSeasonStat.cs",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group_Project_2.ApiLibrary\\Models\\NBAPlayerSeasonStat.cs",
+              "RelativeToolTip": "..\\Group_Project_2.ApiLibrary\\Models\\NBAPlayerSeasonStat.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAcwAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T21:07:04.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "NFLPlayerSeasonStat.cs",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group_Project_2.ApiLibrary\\Models\\NFLPlayerSeasonStat.cs",
+              "RelativeDocumentMoniker": "..\\Group_Project_2.ApiLibrary\\Models\\NFLPlayerSeasonStat.cs",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group_Project_2.ApiLibrary\\Models\\NFLPlayerSeasonStat.cs",
+              "RelativeToolTip": "..\\Group_Project_2.ApiLibrary\\Models\\NFLPlayerSeasonStat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T21:12:33.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T22:24:28.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAACUCAAAAAAAAAAAAAC4CAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-03-23T14:00:14.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAwwDEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-23T13:02:00.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "NFLPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group_Project_2.ApiLibrary\\Models\\NFLPlayer.cs",
+              "RelativeDocumentMoniker": "..\\Group_Project_2.ApiLibrary\\Models\\NFLPlayer.cs",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group_Project_2.ApiLibrary\\Models\\NFLPlayer.cs",
+              "RelativeToolTip": "..\\Group_Project_2.ApiLibrary\\Models\\NFLPlayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T20:57:47.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "NBAPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group_Project_2.ApiLibrary\\Models\\NBAPlayer.cs",
+              "RelativeDocumentMoniker": "..\\Group_Project_2.ApiLibrary\\Models\\NBAPlayer.cs",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group_Project_2.ApiLibrary\\Models\\NBAPlayer.cs",
+              "RelativeToolTip": "..\\Group_Project_2.ApiLibrary\\Models\\NBAPlayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T20:58:12.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "NBATeams.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\NBATeams.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\NBATeams.cshtml.cs",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\NBATeams.cshtml.cs",
+              "RelativeToolTip": "Pages\\NBATeams.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T16:47:36.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T13:24:44.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "SportsApiService.cs",
+              "DocumentMoniker": "C:\\Users\\rltka\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Project 2 First Submission\\Group_Project_2.ApiLibrary\\Services\\SportsApiService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\rltka\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Project 2 First Submission\\Group_Project_2.ApiLibrary\\Services\\SportsApiService.cs",
+              "ToolTip": "C:\\Users\\rltka\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Project 2 First Submission\\Group_Project_2.ApiLibrary\\Services\\SportsApiService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\rltka\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Project 2 First Submission\\Group_Project_2.ApiLibrary\\Services\\SportsApiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T21:58:41.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-23T14:38:54.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "NFLTeams.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\NFLTeams.cshtml",
+              "RelativeDocumentMoniker": "Pages\\NFLTeams.cshtml",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\NFLTeams.cshtml",
+              "RelativeToolTip": "Pages\\NFLTeams.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-23T16:28:12.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_ManageNav.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-23T17:36:03.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-23T17:42:21.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-23T17:35:33.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T13:24:20.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-23T13:05:54.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-23T12:47:59.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-23T17:57:07.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-23T17:56:55.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-23T17:56:48.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ChangePassword.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:55:30.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-23T17:48:51.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Areas\\Identity\\Pages\\Account\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Areas\\Identity\\Pages\\Account\\ApplicationUser.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T14:17:36.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ManageNavPages.cs",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:48:36.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-23T17:46:49.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "SportsApiService.cs",
+              "DocumentMoniker": "C:\\Users\\Vasse\\source\\repos\\Group_Project_2.ApiLibrary\\Services\\SportsApiService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\source\\repos\\Group_Project_2.ApiLibrary\\Services\\SportsApiService.cs",
+              "ToolTip": "C:\\Users\\Vasse\\source\\repos\\Group_Project_2.ApiLibrary\\Services\\SportsApiService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\source\\repos\\Group_Project_2.ApiLibrary\\Services\\SportsApiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T16:24:32.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-03-23T12:45:02.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-23T13:36:28.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-23T13:11:34.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "NFLStanding.cs",
+              "DocumentMoniker": "C:\\Users\\Vasse\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NFLStanding.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NFLStanding.cs",
+              "ToolTip": "C:\\Users\\Vasse\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NFLStanding.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NFLStanding.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA1wAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T16:13:56.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "NBAPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\Vasse\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NBAPlayer.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NBAPlayer.cs",
+              "ToolTip": "C:\\Users\\Vasse\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NBAPlayer.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NBAPlayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T16:12:01.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "NFLPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\Vasse\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NFLPlayer.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NFLPlayer.cs",
+              "ToolTip": "C:\\Users\\Vasse\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NFLPlayer.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NFLPlayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T16:13:10.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "NBAPlayerSeasonStat.cs",
+              "DocumentMoniker": "C:\\Users\\Vasse\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NBAPlayerSeasonStat.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NBAPlayerSeasonStat.cs",
+              "ToolTip": "C:\\Users\\Vasse\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NBAPlayerSeasonStat.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NBAPlayerSeasonStat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T16:12:28.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "NFLPlayerSeasonStat.cs",
+              "DocumentMoniker": "C:\\Users\\Vasse\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NFLPlayerSeasonStat.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NFLPlayerSeasonStat.cs",
+              "ToolTip": "C:\\Users\\Vasse\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NFLPlayerSeasonStat.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NFLPlayerSeasonStat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T16:13:27.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "NBAStanding.cs",
+              "DocumentMoniker": "C:\\Users\\Vasse\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NBAStanding.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NBAStanding.cs",
+              "ToolTip": "C:\\Users\\Vasse\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NBAStanding.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NBAStanding.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T16:12:40.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "NFLScheduleGame.cs",
+              "DocumentMoniker": "C:\\Users\\Vasse\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NFLScheduleGame.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NFLScheduleGame.cs",
+              "ToolTip": "C:\\Users\\Vasse\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NFLScheduleGame.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NFLScheduleGame.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T16:13:40.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T16:38:58.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "NBAGame.cs",
+              "DocumentMoniker": "C:\\Users\\Vasse\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NBAGame.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NBAGame.cs",
+              "ToolTip": "C:\\Users\\Vasse\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NBAGame.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NBAGame.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T16:11:40.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "NBATeam.cs",
+              "DocumentMoniker": "C:\\Users\\Vasse\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NBATeam.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NBATeam.cs",
+              "ToolTip": "C:\\Users\\Vasse\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NBATeam.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NBATeam.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T16:12:54.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "NFLTeam.cs",
+              "DocumentMoniker": "C:\\Users\\Vasse\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NFLTeam.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NFLTeam.cs",
+              "ToolTip": "C:\\Users\\Vasse\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NFLTeam.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\source\\repos\\Group_Project_2.ApiLibrary\\Models\\NFLTeam.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T16:14:30.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Group_Project_2.ApiLibrary.csproj",
+              "DocumentMoniker": "C:\\Users\\Vasse\\source\\repos\\Group_Project_2.ApiLibrary\\Group_Project_2.ApiLibrary.csproj",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\source\\repos\\Group_Project_2.ApiLibrary\\Group_Project_2.ApiLibrary.csproj",
+              "ToolTip": "C:\\Users\\Vasse\\source\\repos\\Group_Project_2.ApiLibrary\\Group_Project_2.ApiLibrary.csproj",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\source\\repos\\Group_Project_2.ApiLibrary\\Group_Project_2.ApiLibrary.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-23T16:11:07.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Logout.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T13:36:25.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T12:48:20.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "20260323144123_FixApplicationUserIdentitySetup.cs",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Migrations\\20260323144123_FixApplicationUserIdentitySetup.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260323144123_FixApplicationUserIdentitySetup.cs",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Migrations\\20260323144123_FixApplicationUserIdentitySetup.cs",
+              "RelativeToolTip": "Migrations\\20260323144123_FixApplicationUserIdentitySetup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T14:41:23.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "20260323132925_AddLastLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Migrations\\20260323132925_AddLastLogin.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260323132925_AddLastLogin.cs",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Migrations\\20260323132925_AddLastLogin.cs",
+              "RelativeToolTip": "Migrations\\20260323132925_AddLastLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T13:29:25.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "20260323142656_AddFirstAndLastNameToApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Migrations\\20260323142656_AddFirstAndLastNameToApplicationUser.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260323142656_AddFirstAndLastNameToApplicationUser.cs",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Migrations\\20260323142656_AddFirstAndLastNameToApplicationUser.cs",
+              "RelativeToolTip": "Migrations\\20260323142656_AddFirstAndLastNameToApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T14:26:56.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "20260323141953_AddFirstAndLastName.cs",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Migrations\\20260323141953_AddFirstAndLastName.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260323141953_AddFirstAndLastName.cs",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Migrations\\20260323141953_AddFirstAndLastName.cs",
+              "RelativeToolTip": "Migrations\\20260323141953_AddFirstAndLastName.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T14:19:53.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "20260323133142_AddLastLoginDate.cs",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Migrations\\20260323133142_AddLastLoginDate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260323133142_AddLastLoginDate.cs",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Migrations\\20260323133142_AddLastLoginDate.cs",
+              "RelativeToolTip": "Migrations\\20260323133142_AddLastLoginDate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T13:31:42.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-23T12:45:50.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "20260323125043_InitialIdentity.cs",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Migrations\\20260323125043_InitialIdentity.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260323125043_InitialIdentity.cs",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Migrations\\20260323125043_InitialIdentity.cs",
+              "RelativeToolTip": "Migrations\\20260323125043_InitialIdentity.cs",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAiwOAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T12:50:44.126Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
