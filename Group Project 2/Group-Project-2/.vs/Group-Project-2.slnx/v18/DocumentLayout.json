@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{862D26EC-CD26-4EF9-BAAE-0287268CFA96}|..\\Group_Project_2.ApiLibrary\\Group_Project_2.ApiLibrary.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group_project_2.apilibrary\\services\\sportsapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group-project-2\\pages\\nflteamdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B55C3B34-9FA6-5B1A-A892-EB312BE928FD}|Group-Project-2.csproj|solutionrelative:pages\\nflteamdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -48,9 +51,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{862D26EC-CD26-4EF9-BAAE-0287268CFA96}|..\\Group_Project_2.ApiLibrary\\Group_Project_2.ApiLibrary.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group_project_2.apilibrary\\models\\nbateam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{862D26EC-CD26-4EF9-BAAE-0287268CFA96}|..\\Group_Project_2.ApiLibrary\\Group_Project_2.ApiLibrary.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group_project_2.apilibrary\\services\\sportsapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{862D26EC-CD26-4EF9-BAAE-0287268CFA96}|..\\Group_Project_2.ApiLibrary\\Group_Project_2.ApiLibrary.csproj|c:\\users\\vasse\\onedrive\\documents\\github\\group-project-part-2-methotk-elmoree-vasseys-gp2\\group_project_2.apilibrary\\models\\nbaplayerseasonstat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -247,7 +247,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -256,19 +256,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "NFLPlayerDetails.cshtml",
-              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\NFLPlayerDetails.cshtml",
-              "RelativeDocumentMoniker": "Pages\\NFLPlayerDetails.cshtml",
-              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\NFLPlayerDetails.cshtml",
-              "RelativeToolTip": "Pages\\NFLPlayerDetails.cshtml",
-              "ViewState": "AgIAAAoBAAAAAAAAAAAwwEcBAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-29T20:21:58.311Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "NFLPlayerDetails.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\NFLPlayerDetails.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\NFLPlayerDetails.cshtml.cs",
@@ -276,12 +263,11 @@
               "RelativeToolTip": "Pages\\NFLPlayerDetails.cshtml.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAYwDMAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T20:22:13.82Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-29T20:22:13.82Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "NFLTeamDetails.cshtml",
               "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\NFLTeamDetails.cshtml",
               "RelativeDocumentMoniker": "Pages\\NFLTeamDetails.cshtml",
@@ -294,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "NFLTeamDetails.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\NFLTeamDetails.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\NFLTeamDetails.cshtml.cs",
@@ -302,12 +288,11 @@
               "RelativeToolTip": "Pages\\NFLTeamDetails.cshtml.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAwwAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T21:39:55.163Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T21:39:55.163Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "NFLTeams.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\NFLTeams.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\NFLTeams.cshtml.cs",
@@ -315,12 +300,11 @@
               "RelativeToolTip": "Pages\\NFLTeams.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T16:28:31.268Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T16:28:31.268Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -328,12 +312,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T12:45:17.817Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T12:45:17.817Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "NBATeams.cshtml",
               "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\NBATeams.cshtml",
               "RelativeDocumentMoniker": "Pages\\NBATeams.cshtml",
@@ -341,12 +324,36 @@
               "RelativeToolTip": "Pages\\NBATeams.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-23T16:47:31.403Z",
+              "WhenOpened": "2026-03-23T16:47:31.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SportsApiService.cs",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group_Project_2.ApiLibrary\\Services\\SportsApiService.cs",
+              "RelativeDocumentMoniker": "..\\Group_Project_2.ApiLibrary\\Services\\SportsApiService.cs",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group_Project_2.ApiLibrary\\Services\\SportsApiService.cs",
+              "RelativeToolTip": "..\\Group_Project_2.ApiLibrary\\Services\\SportsApiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T21:07:16.39Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
+              "Title": "NFLPlayerDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\NFLPlayerDetails.cshtml",
+              "RelativeDocumentMoniker": "Pages\\NFLPlayerDetails.cshtml",
+              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\NFLPlayerDetails.cshtml",
+              "RelativeToolTip": "Pages\\NFLPlayerDetails.cshtml",
+              "ViewState": "AgIAAAoBAAAAAAAAAAAwwEcBAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-29T20:21:58.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "NBATeamDetails.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\NBATeamDetails.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\NBATeamDetails.cshtml.cs",
@@ -354,12 +361,11 @@
               "RelativeToolTip": "Pages\\NBATeamDetails.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T22:19:43.845Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T22:19:43.845Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "NBATeamDetails.cshtml",
               "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\NBATeamDetails.cshtml",
               "RelativeDocumentMoniker": "Pages\\NBATeamDetails.cshtml",
@@ -367,12 +373,11 @@
               "RelativeToolTip": "Pages\\NBATeamDetails.cshtml",
               "ViewState": "AgIAAHwBAAAAAAAAAAAwwKEBAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-23T22:21:12.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T22:21:12.797Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "NBAPlayerDetails.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\NBAPlayerDetails.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\NBAPlayerDetails.cshtml.cs",
@@ -380,12 +385,11 @@
               "RelativeToolTip": "Pages\\NBAPlayerDetails.cshtml.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAAwC8AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T20:23:53.878Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-29T20:23:53.878Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "NBAPlayerDetails.cshtml",
               "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Pages\\NBAPlayerDetails.cshtml",
               "RelativeDocumentMoniker": "Pages\\NBAPlayerDetails.cshtml",
@@ -393,12 +397,11 @@
               "RelativeToolTip": "Pages\\NBAPlayerDetails.cshtml",
               "ViewState": "AgIAABkBAAAAAAAAAAAwwD4BAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-29T20:23:49.778Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-29T20:23:49.778Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "NBATeam.cs",
               "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group_Project_2.ApiLibrary\\Models\\NBATeam.cs",
               "RelativeDocumentMoniker": "..\\Group_Project_2.ApiLibrary\\Models\\NBATeam.cs",
@@ -406,21 +409,7 @@
               "RelativeToolTip": "..\\Group_Project_2.ApiLibrary\\Models\\NBATeam.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T20:24:59.71Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SportsApiService.cs",
-              "DocumentMoniker": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group_Project_2.ApiLibrary\\Services\\SportsApiService.cs",
-              "RelativeDocumentMoniker": "..\\Group_Project_2.ApiLibrary\\Services\\SportsApiService.cs",
-              "ToolTip": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group_Project_2.ApiLibrary\\Services\\SportsApiService.cs",
-              "RelativeToolTip": "..\\Group_Project_2.ApiLibrary\\Services\\SportsApiService.cs",
-              "ViewState": "AgIAALUAAAAAAAAAAAAkwNwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T21:07:16.39Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-29T20:24:59.71Z"
             },
             {
               "$type": "Document",
@@ -432,8 +421,7 @@
               "RelativeToolTip": "..\\Group_Project_2.ApiLibrary\\Models\\NBAPlayerSeasonStat.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAcwAwAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T21:07:04.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-29T21:07:04.216Z"
             },
             {
               "$type": "Document",
@@ -445,8 +433,7 @@
               "RelativeToolTip": "..\\Group_Project_2.ApiLibrary\\Models\\NFLPlayerSeasonStat.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T21:12:33.156Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-29T21:12:33.156Z"
             },
             {
               "$type": "Document",
@@ -458,8 +445,7 @@
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T22:24:28.672Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-29T22:24:28.672Z"
             },
             {
               "$type": "Document",
@@ -471,8 +457,7 @@
               "RelativeToolTip": "wwwroot\\css\\site.css",
               "ViewState": "AgIAACUCAAAAAAAAAAAAAC4CAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-03-23T14:00:14.155Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T14:00:14.155Z"
             },
             {
               "$type": "Document",
@@ -484,8 +469,7 @@
               "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAABMAAAAAAAAAAAAwwDEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-23T13:02:00.892Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T13:02:00.892Z"
             },
             {
               "$type": "Document",
@@ -497,8 +481,7 @@
               "RelativeToolTip": "..\\Group_Project_2.ApiLibrary\\Models\\NFLPlayer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T20:57:47.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-29T20:57:47.324Z"
             },
             {
               "$type": "Document",
@@ -510,8 +493,7 @@
               "RelativeToolTip": "..\\Group_Project_2.ApiLibrary\\Models\\NBAPlayer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T20:58:12.899Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-29T20:58:12.899Z"
             },
             {
               "$type": "Document",
@@ -523,8 +505,7 @@
               "RelativeToolTip": "Pages\\NBATeams.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T16:47:36.868Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T16:47:36.868Z"
             },
             {
               "$type": "Document",
@@ -536,8 +517,7 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T13:24:44.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T13:24:44.646Z"
             },
             {
               "$type": "Document",
