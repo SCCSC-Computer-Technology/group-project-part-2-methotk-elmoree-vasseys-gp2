@@ -1,0 +1,400 @@
+﻿@page
+@model Group_Project_2.Pages.NFLTeamDetailsModel
+
+@{
+    ViewData["Title"] = "NFL Team Details";
+}
+
+<style>
+    body {
+        background: #0b1220;
+        color: #e5e7eb;
+    }
+
+    .team-page {
+        padding: 30px 0 50px 0;
+    }
+
+    .team-hero {
+        background: linear-gradient(135deg, #0f172a, #13233d, #1e293b);
+        color: white;
+        border-radius: 22px;
+        padding: 32px;
+        margin-bottom: 28px;
+        box-shadow: 0 14px 30px rgba(0, 0, 0, 0.25);
+        border: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .team-hero-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+
+    .team-left {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .team-logo {
+        width: 95px;
+        height: 95px;
+        object-fit: contain;
+        background: rgba(255,255,255,.08);
+        border-radius: 18px;
+        padding: 10px;
+        border: 1px solid rgba(255,255,255,.10);
+    }
+
+    .team-title {
+        font-size: 2.5rem;
+        font-weight: 800;
+        margin: 0;
+    }
+
+    .team-subtitle {
+        margin-top: 8px;
+        color: #cbd5e1;
+    }
+
+    .team-tags {
+        display: flex;
+        gap: 10px;
+        margin-top: 12px;
+        flex-wrap: wrap;
+    }
+
+    .team-tag {
+        background: rgba(255,255,255,.10);
+        border: 1px solid rgba(255,255,255,.12);
+        padding: 8px 14px;
+        border-radius: 999px;
+        font-size: .9rem;
+    }
+
+    .fav-btn {
+        background: transparent;
+        color: #f87171;
+        border: 2px solid #f87171;
+        padding: 8px 18px;
+        border-radius: 12px;
+        font-weight: 700;
+        transition: all 0.3s ease;
+        margin-top: 15px;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        cursor: pointer;
+    }
+
+    .fav-btn:hover {
+        background: #f87171;
+        color: white;
+        box-shadow: 0 0 15px rgba(248, 113, 113, 0.4);
+    }
+
+ 
+    .player-fav-btn {
+        background: transparent;
+        border: 1px solid #f87171;
+        color: #f87171;
+        padding: 6px 12px;
+        border-radius: 8px;
+        font-size: 0.8rem;
+        font-weight: 700;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        text-transform: uppercase;
+    }
+
+    .player-fav-btn:hover {
+        background: #f87171;
+        color: white;
+    }
+
+    .fav-alert {
+        background: rgba(59, 130, 246, 0.1);
+        border: 1px solid #3b82f6;
+        color: white;
+        padding: 12px;
+        border-radius: 12px;
+        margin-bottom: 20px;
+    }
+
+    .record-box {
+        background: rgba(255,255,255,.08);
+        border: 1px solid rgba(255,255,255,.12);
+        border-radius: 18px;
+        padding: 20px;
+        text-align: center;
+        min-width: 200px;
+    }
+
+    .record-label {
+        font-size: .9rem;
+        color: #cbd5e1;
+        margin-bottom: 8px;
+        text-transform: uppercase;
+    }
+
+    .record-value {
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
+    .content-card {
+        background: #111827;
+        border-radius: 20px;
+        padding: 24px;
+        margin-bottom: 24px;
+        box-shadow: 0 10px 24px rgba(0,0,0,0.25);
+        border: 1px solid rgba(255,255,255,0.06);
+    }
+
+    .section-title {
+        color: #ffffff;
+        font-size: 1.5rem;
+        font-weight: 800;
+        margin-bottom: 18px;
+    }
+
+    .info-grid,
+    .stats-grid {
+        display: grid;
+        gap: 16px;
+    }
+
+    .info-grid {
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
+
+    .info-box,
+    .stat-box {
+        background: #1f2937;
+        border: 1px solid rgba(255,255,255,.06);
+        border-radius: 16px;
+        padding: 18px;
+    }
+
+    .label-text {
+        color: #94a3b8;
+        font-size: .8rem;
+        margin-bottom: 6px;
+        text-transform: uppercase;
+    }
+
+    .value-text {
+        color: #ffffff;
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+
+    .table-search-wrap {
+        margin-bottom: 16px;
+    }
+
+    .table-search {
+        width: 100%;
+        max-width: 450px;
+        background: #1f2937;
+        color: #ffffff;
+        border: 1px solid rgba(255,255,255,.08);
+        border-radius: 12px;
+        padding: 12px 14px;
+        outline: none;
+        font-size: 0.95rem;
+    }
+
+        .table-search::placeholder {
+            color: #94a3b8;
+        }
+
+        .table-search:focus {
+            border-color: #3b82f6;
+            box-shadow: 0 0 0 3px rgba(59,130,246,.15);
+        }
+
+    .players-table-wrapper {
+        overflow-x: auto;
+    }
+
+    .players-table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+        .players-table thead th {
+            background: #020617;
+            color: #cbd5e1;
+            padding: 14px;
+            text-align: left;
+        }
+
+        .players-table tbody td {
+            padding: 14px;
+            border-bottom: 1px solid rgba(255,255,255,.06);
+        }
+
+        .players-table tbody tr:nth-child(even) {
+            background: rgba(255,255,255,.03);
+        }
+
+        .players-table tbody tr:hover {
+            background: rgba(59,130,246,.15);
+        }
+
+    .player-name {
+        font-weight: 700;
+        color: white;
+    }
+
+    .empty-message {
+        padding: 16px;
+        border-radius: 14px;
+        background: #1f2937;
+    }
+
+    .view-btn {
+        background: #2563eb;
+        color: white;
+        padding: 8px 12px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-size: 0.85rem;
+        font-weight: 600;
+        display: inline-block;
+    }
+
+        .view-btn:hover {
+            background: #1d4ed8;
+            color: white;
+        }
+
+    @@media (max-width: 768px) {
+        .team-title {
+            font-size: 1.9rem;
+        }
+
+        .record-box {
+            width: 100%;
+        }
+    }
+</style>
+
+<div class="container team-page">
+    @if (TempData["UserMessage"] != null)
+    {
+        <div class="fav-alert">@TempData["UserMessage"]</div>
+    }
+
+    @if (Model.Team != null)
+    {
+        <div class="team-hero">
+            <div class="team-hero-content">
+                <div class="team-left">
+                    <img class="team-logo" src="~/Images/NFL/@(Model.Team.Name).png" alt="Logo" onerror="this.style.display='none';" />
+                    <div>
+                        <h1 class="team-title">@Model.Team.City @Model.Team.Name</h1>
+                        <div class="team-tags">
+                            <span class="team-tag">@Model.Team.Conference</span>
+                            <span class="team-tag">@Model.Team.Division</span>
+                        </div>
+                        <form method="post" asp-page-handler="FavoriteTeam">
+                            <input type="hidden" name="teamKey" value="@Model.Key" />
+                            <input type="hidden" name="fullTeamName" value="@Model.Team.City @Model.Team.Name" />
+                            <button type="submit" class="fav-btn">Add to Favorites</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="record-box">
+                    <div class="record-label">Current Record</div>
+                    <div class="record-value">@(Model.Standing != null ? $"{Model.Standing.Wins}-{Model.Standing.Losses}-{Model.Standing.Ties}" : "N/A")</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-card">
+            <h2 class="section-title">Team Stats</h2>
+            @if (Model.Standing != null)
+            {
+                <div class="stats-grid">
+                    <div class="stat-box"><div class="label-text">Wins</div><div class="value-text">@Model.Standing.Wins</div></div>
+                    <div class="stat-box"><div class="label-text">Losses</div><div class="value-text">@Model.Standing.Losses</div></div>
+                    <div class="stat-box"><div class="label-text">Points For</div><div class="value-text">@Model.Standing.PointsFor</div></div>
+                    <div class="stat-box"><div class="label-text">Points Against</div><div class="value-text">@Model.Standing.PointsAgainst</div></div>
+                </div>
+            }
+        </div>
+
+        <div class="content-card">
+            <h2 class="section-title">Roster</h2>
+            <input type="text" id="playerSearch" class="table-search" placeholder="Search players..." />
+            <div style="overflow-x:auto;">
+                <table class="players-table" id="playersTable">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Position</th>
+                            <th>Number</th>
+                            <th>Height/Weight</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var player in Model.Players)
+                        {
+                            <tr>
+                                <td style="font-weight:700;">@player.FirstName @player.LastName</td>
+                                <td>@player.Position</td>
+                                <td>@(player.Number?.ToString() ?? "N/A")</td>
+                                <td>@player.Height / @(player.Weight == 0 ? "N/A" : player.Weight)</td>
+                                <td>
+                                    <div style="display: flex; gap: 8px;">
+                                        <a asp-page="/NFLPlayerDetails"
+                                           asp-route-firstName="@player.FirstName"
+                                           asp-route-lastName="@player.LastName"
+                                           asp-route-teamKey="@Model.Team.Key"
+                                           asp-route-number="@player.Number"
+                                           asp-route-position="@player.Position"
+                                           asp-route-height="@player.Height"
+                                           asp-route-weight="@(player.Weight == 0 ? "N/A" : player.Weight.ToString())"
+                                           asp-route-teamName="@Model.Team.Name"
+                                           asp-route-teamCity="@Model.Team.City"
+                                           class="view-btn">View</a>
+
+                                        <form method="post" asp-page-handler="FavoritePlayer">
+                                            <input type="hidden" name="playerName" value="@player.FirstName @player.LastName" />
+                                            <input type="hidden" name="teamKey" value="@Model.Team.Key" />
+                                            <button type="submit" class="player-fav-btn">Fav</button>
+                                        </form>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    }
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const input = document.getElementById("playerSearch");
+        const table = document.getElementById("playersTable");
+        const filterTable = (val) => {
+            const rows = table.querySelectorAll("tbody tr");
+            rows.forEach(r => {
+                r.style.display = r.textContent.toLowerCase().includes(val.toLowerCase()) ? "" : "none";
+            });
+        };
+        input.addEventListener("keyup", () => filterTable(input.value));
+    });
+</script>
