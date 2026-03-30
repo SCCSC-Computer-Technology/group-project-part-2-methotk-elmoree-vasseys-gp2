@@ -200,20 +200,14 @@
         }
     }
 </style>
-
 <div class="container player-page">
     <div class="player-hero">
         <div class="player-hero-content">
             <div class="player-left">
-                <img class="team-logo"
-                     src="~/Images/NFL/@(Model.TeamName).png"
-                     alt="@Model.TeamCity @Model.TeamName Logo"
-                     onerror="this.style.display='none';" />
-
+                <img class="team-logo" src="~/Images/NFL/@(Model.TeamName).png" alt="Logo" onerror="this.style.display='none';" />
                 <div>
                     <h1 class="player-title">@Model.FullName</h1>
                     <div class="player-subtitle">@Model.TeamCity @Model.TeamName • NFL Player Profile</div>
-
                     <div class="player-tags">
                         <span class="player-tag">Position: @(string.IsNullOrWhiteSpace(Model.Position) ? "N/A" : Model.Position)</span>
                         <span class="player-tag">Height: @(string.IsNullOrWhiteSpace(Model.Height) ? "N/A" : Model.Height)</span>
@@ -221,7 +215,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="number-box">
                 <div class="number-label">Jersey Number</div>
                 <div class="number-value">@(string.IsNullOrWhiteSpace(Model.Number) ? "N/A" : Model.Number)</div>
@@ -231,43 +224,18 @@
 
     <div class="content-card">
         <h2 class="section-title">Player Details</h2>
-
         <div class="info-grid">
-            <div class="info-box">
-                <div class="label-text">First Name</div>
-                <div class="value-text">@Model.FirstName</div>
-            </div>
-
-            <div class="info-box">
-                <div class="label-text">Last Name</div>
-                <div class="value-text">@Model.LastName</div>
-            </div>
-
-            <div class="info-box">
-                <div class="label-text">Team</div>
-                <div class="value-text">@Model.TeamCity @Model.TeamName</div>
-            </div>
-
-            <div class="info-box">
-                <div class="label-text">Position</div>
-                <div class="value-text">@(string.IsNullOrWhiteSpace(Model.Position) ? "N/A" : Model.Position)</div>
-            </div>
-
-            <div class="info-box">
-                <div class="label-text">Height</div>
-                <div class="value-text">@(string.IsNullOrWhiteSpace(Model.Height) ? "N/A" : Model.Height)</div>
-            </div>
-
-            <div class="info-box">
-                <div class="label-text">Weight</div>
-                <div class="value-text">@(string.IsNullOrWhiteSpace(Model.Weight) ? "N/A" : Model.Weight)</div>
-            </div>
+            <div class="info-box"><div class="label-text">First Name</div><div class="value-text">@Model.FirstName</div></div>
+            <div class="info-box"><div class="label-text">Last Name</div><div class="value-text">@Model.LastName</div></div>
+            <div class="info-box"><div class="label-text">Team</div><div class="value-text">@Model.TeamCity @Model.TeamName</div></div>
+            <div class="info-box"><div class="label-text">Position</div><div class="value-text">@(string.IsNullOrWhiteSpace(Model.Position) ? "N/A" : Model.Position)</div></div>
+            <div class="info-box"><div class="label-text">Height</div><div class="value-text">@(string.IsNullOrWhiteSpace(Model.Height) ? "N/A" : Model.Height)</div></div>
+            <div class="info-box"><div class="label-text">Weight</div><div class="value-text">@(string.IsNullOrWhiteSpace(Model.Weight) ? "N/A" : Model.Weight)</div></div>
         </div>
     </div>
 
     <div class="content-card">
         <h2 class="section-title">Season Stats</h2>
-
         @if (Model.Stats != null && Model.Stats.Any())
         {
             <div class="stats-table-wrapper">
@@ -278,16 +246,11 @@
                             <th>Team</th>
                             <th>Position</th>
                             <th>Games</th>
-                            <th>Pass Yards</th>
+                            <th>Pass Yds</th>
                             <th>Pass TD</th>
-                            <th>Pass INT</th>
-                            <th>Rush Yards</th>
-                            <th>Rush TD</th>
-                            <th>Rec Yards</th>
-                            <th>Rec TD</th>
+                            <th>Rush Yds</th>
+                            <th>Rec Yds</th>
                             <th>Tackles</th>
-                            <th>Sacks</th>
-                            <th>Def INT</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -300,14 +263,9 @@
                                 <td>@(stat.Played?.ToString() ?? "N/A")</td>
                                 <td>@(stat.PassingYards?.ToString() ?? "N/A")</td>
                                 <td>@(stat.PassingTouchdowns?.ToString() ?? "N/A")</td>
-                                <td>@(stat.PassingInterceptions?.ToString() ?? "N/A")</td>
                                 <td>@(stat.RushingYards?.ToString() ?? "N/A")</td>
-                                <td>@(stat.RushingTouchdowns?.ToString() ?? "N/A")</td>
                                 <td>@(stat.ReceivingYards?.ToString() ?? "N/A")</td>
-                                <td>@(stat.ReceivingTouchdowns?.ToString() ?? "N/A")</td>
                                 <td>@(stat.Tackles?.ToString() ?? "N/A")</td>
-                                <td>@(stat.Sacks?.ToString() ?? "N/A")</td>
-                                <td>@(stat.Interceptions?.ToString() ?? "N/A")</td>
                             </tr>
                         }
                     </tbody>
@@ -320,9 +278,5 @@
         }
     </div>
 
-    <a class="back-btn"
-       asp-page="/NFLTeamDetails"
-       asp-route-key="@Model.TeamKey">
-        ← Back to Team
-    </a>
+    <a class="back-btn" asp-page="/NFLTeamDetails" asp-route-key="@Model.TeamKey">← Back to Team</a>
 </div>

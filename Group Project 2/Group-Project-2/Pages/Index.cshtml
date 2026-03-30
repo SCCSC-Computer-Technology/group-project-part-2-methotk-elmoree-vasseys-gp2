@@ -4,6 +4,109 @@
     ViewData["Title"] = "Home";
 }
 
+<style>
+    .home-wrapper {
+        padding-bottom: 50px;
+    }
+
+    .hero-section {
+        text-align: center;
+        padding: 60px 20px;
+    }
+
+    .hero-title {
+        font-size: 3.5rem;
+        font-weight: 800;
+        color: white;
+        margin-bottom: 10px;
+    }
+
+    .hero-subtitle {
+        color: #94a3b8;
+        font-size: 1.2rem;
+    }
+
+    .league-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 24px;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .league-card {
+        border-radius: 24px;
+        padding: 40px;
+        text-align: center;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid rgba(255,255,255,0.05);
+    }
+
+        .league-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+        }
+
+    .nfl-card {
+        background: linear-gradient(135deg, #1e40af, #1e3a8a);
+    }
+
+    .nba-card {
+        background: linear-gradient(135deg, #be123c, #9f1239);
+    }
+
+    .fav-card {
+        background: linear-gradient(135deg, #1f2937, #111827);
+        border: 1px solid rgba(250, 204, 21, 0.3);
+    }
+
+    .card-icon {
+        font-size: 3.5rem;
+        margin-bottom: 20px;
+    }
+
+    .league-card h2 {
+        font-weight: 800;
+        color: white;
+        margin-bottom: 10px;
+    }
+
+    .league-card p {
+        color: rgba(255,255,255,0.8);
+        margin-bottom: 25px;
+    }
+
+    .league-button {
+        background: #000;
+        color: white;
+        padding: 12px 24px;
+        border-radius: 12px;
+        text-decoration: none;
+        font-weight: 700;
+        transition: opacity 0.2s;
+    }
+
+        .league-button:hover {
+            color: white;
+            opacity: 0.8;
+        }
+
+    .fav-button {
+        background: #eab308;
+        color: #000;
+    }
+
+        .fav-button:hover {
+            background: #facc15;
+            color: #000;
+        }
+</style>
+
 <div class="home-wrapper">
     <section class="hero-section">
         <div class="hero-content">
@@ -18,7 +121,6 @@
         <div class="league-grid">
             <div class="league-card nfl-card">
                 <div class="card-icon">🏈</div>
-
                 <div class="league-card-content">
                     <h2>NFL</h2>
                     <p>View NFL teams, matchups, and standings.</p>
@@ -26,9 +128,17 @@
                 </div>
             </div>
 
+            <div class="league-card fav-card">
+                <div class="card-icon">⭐</div>
+                <div class="league-card-content">
+                    <h2>Favorites</h2>
+                    <p>Quickly access your pinned teams and players.</p>
+                    <a asp-page="/Favorites" class="league-button fav-button">View Favorites</a>
+                </div>
+            </div>
+
             <div class="league-card nba-card">
                 <div class="card-icon">🏀</div>
-
                 <div class="league-card-content">
                     <h2>NBA</h2>
                     <p>View NBA teams, records, and player information.</p>

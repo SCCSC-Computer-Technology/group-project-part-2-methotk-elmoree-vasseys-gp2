@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Group-Project-2.csproj": {}
+    "C:\\Users\\Vasse\\OneDrive\\Desktop\\group-project-part-2-MEV2\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Group-Project-2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Group-Project-2.csproj": {
+    "C:\\Users\\Vasse\\OneDrive\\Desktop\\group-project-part-2-MEV2\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Group-Project-2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Group-Project-2.csproj",
+        "projectUniqueName": "C:\\Users\\Vasse\\OneDrive\\Desktop\\group-project-part-2-MEV2\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Group-Project-2.csproj",
         "projectName": "Group-Project-2",
-        "projectPath": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Group-Project-2.csproj",
+        "projectPath": "C:\\Users\\Vasse\\OneDrive\\Desktop\\group-project-part-2-MEV2\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Group-Project-2.csproj",
         "packagesPath": "C:\\Users\\Vasse\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\obj\\",
+        "outputPath": "C:\\Users\\Vasse\\OneDrive\\Desktop\\group-project-part-2-MEV2\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group_Project_2.ApiLibrary\\Group_Project_2.ApiLibrary.csproj": {
-                "projectPath": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group_Project_2.ApiLibrary\\Group_Project_2.ApiLibrary.csproj"
+              "C:\\Users\\Vasse\\OneDrive\\Desktop\\group-project-part-2-MEV2\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group_Project_2.ApiLibrary\\Group_Project_2.ApiLibrary.csproj": {
+                "projectPath": "C:\\Users\\Vasse\\OneDrive\\Desktop\\group-project-part-2-MEV2\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group_Project_2.ApiLibrary\\Group_Project_2.ApiLibrary.csproj"
               }
             }
           }
@@ -519,14 +519,14 @@
         }
       }
     },
-    "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group_Project_2.ApiLibrary\\Group_Project_2.ApiLibrary.csproj": {
+    "C:\\Users\\Vasse\\OneDrive\\Desktop\\group-project-part-2-MEV2\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group_Project_2.ApiLibrary\\Group_Project_2.ApiLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group_Project_2.ApiLibrary\\Group_Project_2.ApiLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\Vasse\\OneDrive\\Desktop\\group-project-part-2-MEV2\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group_Project_2.ApiLibrary\\Group_Project_2.ApiLibrary.csproj",
         "projectName": "Group_Project_2.ApiLibrary",
-        "projectPath": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group_Project_2.ApiLibrary\\Group_Project_2.ApiLibrary.csproj",
+        "projectPath": "C:\\Users\\Vasse\\OneDrive\\Desktop\\group-project-part-2-MEV2\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group_Project_2.ApiLibrary\\Group_Project_2.ApiLibrary.csproj",
         "packagesPath": "C:\\Users\\Vasse\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group_Project_2.ApiLibrary\\obj\\",
+        "outputPath": "C:\\Users\\Vasse\\OneDrive\\Desktop\\group-project-part-2-MEV2\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group_Project_2.ApiLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

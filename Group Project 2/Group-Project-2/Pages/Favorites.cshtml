@@ -1,0 +1,127 @@
+﻿@page
+@model Group_Project_2.Pages.FavoritesModel
+@{
+    ViewData["Title"] = "Favorites";
+}
+
+<style>
+    body {
+        background: #0b1220;
+        color: #e5e7eb;
+    }
+
+    .container {
+        padding: 30px;
+    }
+
+    .content-card {
+        background: #111827;
+        border-radius: 20px;
+        padding: 24px;
+        margin-bottom: 24px;
+        border: 1px solid rgba(255,255,255,0.06);
+    }
+
+    .fav-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0;
+        border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+
+        .fav-item:last-child {
+            border-bottom: none;
+        }
+
+    h1, h2 {
+        color: white;
+    }
+
+    a {
+        color: #60a5fa;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+    .btn-remove {
+        background: #ef4444;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        padding: 6px 14px;
+        font-size: 0.85rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background 0.2s;
+    }
+
+        .btn-remove:hover {
+            background: #dc2626;
+        }
+</style>
+
+<div class="container">
+    <h1>Your Favorites</h1>
+
+    <div class="content-card">
+        <h2>Favorite Teams</h2>
+        @if (Model.FavoriteTeams.Any())
+        {
+            @foreach (var team in Model.FavoriteTeams)
+            {
+                <div class="fav-item">
+                    
+                    <a asp-page="/NFLTeamDetails" asp-route-Key="@team">@team</a>
+                    
+                    <form method="post" asp-page-handler="Remove" style="display:inline;">
+                        <input type="hidden" name="type" value="Team" />
+                        <input type="hidden" name="value" value="@team" />
+                        <button type="submit" class="btn-remove">Remove</button>
+                    </form>
+                </div>
+            }
+        }
+        else
+        {
+            <p>No favorite teams saved.</p>
+        }
+    </div>
+
+    <div class="content-card">
+        <h2>Favorite Players</h2>
+        @if (Model.FavoritePlayers.Any())
+        {
+            @foreach (var player in Model.FavoritePlayers)
+            {
+                var parts = player.Split(',');
+                if (parts.Length >= 3)
+                {
+                    <div class="fav-item">
+         
+                        <a asp-page="/NFLPlayerDetails"
+                               asp-route-firstName="@parts[0]"
+                               asp-route-lastName="@parts[1]"
+                               asp-route-teamKey="@parts[2]">
+                            @parts[0] @parts[1] (@parts[2])
+                        </a>
+                        
+                        <form method="post" asp-page-handler="Remove" style="display:inline;">
+                            <input type="hidden" name="type" value="Player" />
+                            <input type="hidden" name="value" value="@player" />
+                            <button type="submit" class="btn-remove">Remove</button>
+                        </form>
+                    </div>
+                }
+            }
+        }
+        else
+        {
+            <p>No favorite players saved.</p>
+        }
+    </div>
+</div>

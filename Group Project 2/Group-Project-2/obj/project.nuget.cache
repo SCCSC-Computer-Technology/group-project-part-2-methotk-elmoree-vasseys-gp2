@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wvDVWb4FLvY=",
+  "dgSpecHash": "Yv8dLB+6ROk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Group-Project-2.csproj",
+  "projectFilePath": "C:\\Users\\Vasse\\OneDrive\\Desktop\\group-project-part-2-MEV2\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group-Project-2\\Group-Project-2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vasse\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\Vasse\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

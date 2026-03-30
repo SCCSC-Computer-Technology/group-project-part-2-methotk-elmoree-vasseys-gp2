@@ -75,6 +75,54 @@
         font-size: .9rem;
     }
 
+    .fav-btn {
+        background: transparent;
+        color: #f87171;
+        border: 2px solid #f87171;
+        padding: 8px 18px;
+        border-radius: 12px;
+        font-weight: 700;
+        transition: all 0.3s ease;
+        margin-top: 15px;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        cursor: pointer;
+    }
+
+        .fav-btn:hover {
+            background: #f87171;
+            color: white;
+            box-shadow: 0 0 15px rgba(248, 113, 113, 0.4);
+        }
+
+    .player-fav-btn {
+        background: transparent;
+        border: 1px solid #f87171;
+        color: #f87171;
+        padding: 6px 12px;
+        border-radius: 8px;
+        font-size: 0.8rem;
+        font-weight: 700;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        text-transform: uppercase;
+    }
+
+        .player-fav-btn:hover {
+            background: #f87171;
+            color: white;
+        }
+
+    .fav-alert {
+        background: rgba(59, 130, 246, 0.1);
+        border: 1px solid #3b82f6;
+        color: white;
+        padding: 12px;
+        border-radius: 12px;
+        margin-bottom: 20px;
+    }
+
     .record-box {
         background: rgba(255,255,255,.08);
         border: 1px solid rgba(255,255,255,.12);
@@ -236,10 +284,15 @@
         .record-box {
             width: 100%;
         }
-    }
+    }  
 </style>
 
 <div class="container team-page">
+
+    @if (TempData["UserMessage"] != null)
+    {
+        <div class="fav-alert">@TempData["UserMessage"]</div>
+    }
 
     @if (Model.Team == null)
     {
@@ -264,6 +317,13 @@
                             <span class="team-tag">Division: @Model.Team.Division</span>
                             <span class="team-tag">Key: @Model.Team.Key</span>
                         </div>
+
+                        <form method="post" asp-page-handler="FavoriteTeam">
+                            <input type="hidden" name="teamKey" value="@Model.Key" />
+                            <button type="submit" class="fav-btn">
+                                Add to Favorites
+                            </button>
+                        </form>
                     </div>
                 </div>
 
@@ -283,23 +343,19 @@
 
         <div class="content-card">
             <h2 class="section-title">Team Info</h2>
-
             <div class="info-grid">
                 <div class="info-box">
                     <div class="label-text">City</div>
                     <div class="value-text">@Model.Team.City</div>
                 </div>
-
                 <div class="info-box">
                     <div class="label-text">Team Name</div>
                     <div class="value-text">@Model.Team.Name</div>
                 </div>
-
                 <div class="info-box">
                     <div class="label-text">Conference</div>
                     <div class="value-text">@Model.Team.Conference</div>
                 </div>
-
                 <div class="info-box">
                     <div class="label-text">Division</div>
                     <div class="value-text">@Model.Team.Division</div>
@@ -309,7 +365,6 @@
 
         <div class="content-card">
             <h2 class="section-title">Team Stats</h2>
-
             @if (Model.Standing != null)
             {
                 <div class="stats-grid">
@@ -317,17 +372,14 @@
                         <div class="label-text">Wins</div>
                         <div class="value-text">@Model.Standing.Wins</div>
                     </div>
-
                     <div class="stat-box">
                         <div class="label-text">Losses</div>
                         <div class="value-text">@Model.Standing.Losses</div>
                     </div>
-
                     <div class="stat-box">
                         <div class="label-text">Win %</div>
                         <div class="value-text">@Model.Standing.Percentage</div>
                     </div>
-
                     <div class="stat-box">
                         <div class="label-text">Conference Rank</div>
                         <div class="value-text">@Model.Standing.ConferenceRank</div>
@@ -342,11 +394,10 @@
 
         <div class="content-card">
             <h2 class="section-title">Players</h2>
-
             @if (Model.Players != null && Model.Players.Any())
             {
                 <div class="table-search-wrap">
-                    <input type="text" id="nbaPlayerSearch" class="table-search" placeholder="Search players by name, position, number, height, or weight..." />
+                    <input type="text" id="nbaPlayerSearch" class="table-search" placeholder="Search players..." />
                 </div>
 
                 <div class="players-table-wrapper">
@@ -371,20 +422,30 @@
                                     <td>@(string.IsNullOrWhiteSpace(player.Height) ? "N/A" : player.Height)</td>
                                     <td>@(player.Weight == 0 ? "N/A" : player.Weight)</td>
                                     <td>
-                                        <a asp-page="/NBAPlayerDetails"
-                                           asp-route-playerId="@player.PlayerID"
-                                           asp-route-firstName="@player.FirstName"
-                                           asp-route-lastName="@player.LastName"
-                                           asp-route-position="@player.Position"
-                                           asp-route-number="@(player.Number.HasValue? player.Number.ToString() : "N/A")"
-                                           asp-route-height="@player.Height"
-                                           asp-route-weight="@(player.Weight.HasValue? player.Weight.ToString() : "N/A")"
-                                           asp-route-teamKey="@Model.Team.Key"
-                                           asp-route-teamName="@Model.Team.Name"
-                                           asp-route-teamCity="@Model.Team.City"
-                                           class="view-btn">
-                                            View Player
-                                        </a>
+                                        <div style="display: flex; gap: 8px; align-items: center;">
+                                            <a asp-page="/NBAPlayerDetails"
+                                                   asp-route-playerId="@player.PlayerID"
+                                                   asp-route-firstName="@player.FirstName"
+                                                   asp-route-lastName="@player.LastName"
+                                                   asp-route-position="@player.Position"
+                                                   asp-route-number="@(player.Number.HasValue? player.Number.ToString() : "N/A")"
+                                                   asp-route-height="@player.Height"
+                                                   asp-route-weight="@(player.Weight.HasValue? player.Weight.ToString() : "N/A")"
+                                                   asp-route-teamKey="@Model.Team.Key"
+                                                   asp-route-teamName="@Model.Team.Name"
+                                                   asp-route-teamCity="@Model.Team.City"
+                                                   class="view-btn">
+                                                View
+                                            </a>
+
+                                            <form method="post" asp-page-handler="FavoritePlayer">
+                                                <input type="hidden" name="playerName" value="@player.FirstName @player.LastName" />
+                                                <input type="hidden" name="teamKey" value="@Model.Team.Key" />
+                                                <button type="submit" class="player-fav-btn">
+                                                    Fav
+                                                </button>
+                                            </form>
+                                        </div>
                                     </td>
                                 </tr>
                             }
@@ -413,6 +474,21 @@
                 const text = row.textContent.toLowerCase();
                 row.style.display = text.includes(filter) ? "" : "none";
             });
+        });
+
+        document.addEventListener("DOMContentLoaded", function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const searchVal = urlParams.get('searchTerm');
+
+            if (searchVal) {
+                nbaSearchInput.value = searchVal;
+                const filter = searchVal.toLowerCase();
+                const rows = nbaTable.querySelectorAll("tbody tr");
+                rows.forEach(row => {
+                    const text = row.textContent.toLowerCase();
+                    row.style.display = text.includes(filter) ? "" : "none";
+                });
+            }
         });
     }
 </script>

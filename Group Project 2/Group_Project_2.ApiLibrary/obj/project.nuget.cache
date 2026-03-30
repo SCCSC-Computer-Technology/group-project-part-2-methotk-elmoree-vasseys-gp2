@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g2NAavMMZBo=",
+  "dgSpecHash": "0yFrwrniic4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vasse\\OneDrive\\Documents\\GitHub\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group_Project_2.ApiLibrary\\Group_Project_2.ApiLibrary.csproj",
+  "projectFilePath": "C:\\Users\\Vasse\\OneDrive\\Desktop\\group-project-part-2-MEV2\\group-project-part-2-methotk-elmoree-vasseys-gp2\\Group_Project_2.ApiLibrary\\Group_Project_2.ApiLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vasse\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512"
   ],

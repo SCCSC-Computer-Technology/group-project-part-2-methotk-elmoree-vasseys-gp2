@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Group_Project_2.ApiLibrary.Services;
 
 var builder = WebApplication.CreateBuilder(args);
+
 builder.Services.AddHttpClient<SportsApiService>();
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
@@ -23,6 +24,9 @@ builder.Services.AddRazorPages(options =>
     options.Conventions.AuthorizeFolder("/");
 });
 
+builder.Services.AddSession();
+
+
 var app = builder.Build();
 
 if (!app.Environment.IsDevelopment())
@@ -35,6 +39,11 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+
+
+app.UseSession();
+
 
 app.UseAuthentication();
 app.UseAuthorization();

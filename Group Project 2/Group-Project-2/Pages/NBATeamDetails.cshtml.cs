@@ -57,5 +57,39 @@ namespace Group_Project_2.Pages
 
             return Page();
         }
+
+        public IActionResult OnPostFavoriteTeam(string teamKey)
+        {
+            if (string.IsNullOrEmpty(teamKey)) return Page();
+
+            var existingTeams = HttpContext.Session.GetString("FavoriteTeams") ?? "";
+            var teamList = existingTeams.Split(',', StringSplitOptions.RemoveEmptyEntries).ToList();
+
+            if (!teamList.Contains(teamKey))
+            {
+                teamList.Add(teamKey);
+                HttpContext.Session.SetString("FavoriteTeams", string.Join(",", teamList));
+                TempData["UserMessage"] = $"{teamKey} added to favorites!";
+            }
+            return RedirectToPage(new { key = teamKey });
+        }
+
+        public IActionResult OnPostFavoritePlayer(string playerName, string teamKey)
+        {
+            if (string.IsNullOrEmpty(playerName)) return Page();
+
+            var playerRecord = $"{playerName.Replace(" ", ",")},{teamKey}";
+
+            var existingPlayers = HttpContext.Session.GetString("FavoritePlayers") ?? "";
+            var playerList = existingPlayers.Split('|', StringSplitOptions.RemoveEmptyEntries).ToList();
+
+            if (!playerList.Contains(playerRecord))
+            {
+                playerList.Add(playerRecord);
+                HttpContext.Session.SetString("FavoritePlayers", string.Join("|", playerList));
+                TempData["UserMessage"] = $"{playerName} added to favorites!";
+            }
+            return RedirectToPage(new { key = teamKey });
+        }
     }
 }
