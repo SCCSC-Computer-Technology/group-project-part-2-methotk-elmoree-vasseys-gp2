@@ -7,7 +7,7 @@ namespace Group_Project_2.ApiLibrary.Services
     {
         private readonly HttpClient _client;
 
-        private const string ApiKey = "f6d43bd8239c4fe7a38abcac1c0cb30c";
+        private const string ApiKey = "8c7b4074a3d2420d953d9e872b124d19";
         private const string FixedYear = "2025";
         private const string FixedNFLSeason = "2025REG";
 
